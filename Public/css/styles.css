@@ -1,0 +1,18 @@
+body{
+    background-color: #040021;
+}
+
+
+section h1 {
+    width: 410px;
+    height: 150px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 82px;
+
+    color: #FFFFFF;
+
+}
