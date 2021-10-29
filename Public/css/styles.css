@@ -17,3 +17,33 @@ section h1 {
 
 }
 
+section p {
+    width: 353px;
+    height: 22px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+section button {
+    background: #47F177;
+    border-radius: 45px;
+    border: none;
+    width: 220px;
+    height: 59px;
+
+    /*button text*/
+    color:#FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    
+}
+
