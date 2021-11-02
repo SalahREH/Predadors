@@ -4,7 +4,7 @@ body{
 }
 
 header {
-    font-family: Roboto;
+    font-family: 'roboto', sans-serif;
     font-style: normal;
     color: #FFFFFF;  
 }
@@ -39,7 +39,7 @@ ul{
 
 .h1-s1 {
     text-align: left;
-    font-family: Roboto;
+    font-family: 'roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 60px;
@@ -50,7 +50,7 @@ ul{
 
 .p-s1 {
     text-align: left;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 19px;
@@ -74,7 +74,7 @@ ul{
     /*button text*/
     color:#FFFFFF;
     text-align: center;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 22px;
     text-decoration: none;
         
@@ -102,7 +102,7 @@ footer{
     height: 32px;
     
 
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 31px;
@@ -117,7 +117,7 @@ footer{
     width: 499px;
     height: 17px;
     
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -136,10 +136,10 @@ footer{
     border: none;
 
     /* button text */   
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: normal;
-    font-size: 19px;
+    font-weight: bold;
+    font-size: 15px;
     line-height: 22px;
     color: #1C1B2B;
     justify-content: center;
