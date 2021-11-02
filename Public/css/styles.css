@@ -20,6 +20,10 @@ ul{
 
 }
 
+.section1 {
+    display: flex;
+    justify-content: space-aroung;
+}
 
 .p-s1 {
     text-align: center;
@@ -28,7 +32,7 @@ ul{
     font-weight: normal;
     font-size: 19px;
     line-height: 22px;
-
+    opacity: 0.5;
     color: #FFFFFF;
 }
 
