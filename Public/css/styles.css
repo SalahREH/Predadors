@@ -42,11 +42,11 @@ ul{
 }
 
 .text-s1{
-    width: 30%;
+    width: 40%;
 }
 
 .drumkit{
-    width: 70%;
+    width: 60%;
 }
 
 /*.bs1 {
@@ -106,7 +106,7 @@ ul{
 
 .img-section{
     display: flex;
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 
@@ -136,8 +136,6 @@ ul{
 .button-footer{
     width: 178px;
     height: 50px;;
-   
-        
     background: #F4F2F2;
     border-radius: 45px;
     border: none;
