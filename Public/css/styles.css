@@ -1,5 +1,31 @@
 body{
     background-color: #040021;
+   
+}
+
+header {
+    font-family: Roboto;
+    font-style: normal;
+    color: #FFFFFF;  
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 90vw; 
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;   
+    width: 40vw;
+    list-style-type: none;
+}
+
+
+
+span {
+    color : #47F177;
 }
 
 ul{
@@ -7,16 +33,14 @@ ul{
 }
 
 
-
 .h1-s1 {
-    width: 410px;
-    height: 150px;
-    text-align: center;
+    text-align: left;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 70px;
-    line-height: 82px;
+    font-size: 60px;
+    
+    
 
     color: #FFFFFF;
 
@@ -24,12 +48,14 @@ ul{
 
 .section1{
     display: flex;
-    justify-content: space-around;
+    gap: 20px;
+    justify-content: center;
+    
 }
 
 
 .p-s1 {
-    text-align: center;
+    text-align: left;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -45,9 +71,9 @@ ul{
     border: none;
     width: 220px;
     height: 59px;
-    margin-left: 100px;
     transition-duration: 0.5s;
     cursor:pointer;
+    justify-content:left;
 
     /*button text*/
     color:#FFFFFF;
@@ -55,16 +81,72 @@ ul{
     font-family: Roboto;
     font-size: 22px;
     text-decoration: none;
-    
-    
+        
 }
+.h1-footer{
+    position: absolute;
+width: 533px;
+height: 32px;
+left: 462px;
+top: 803px;
 
-.button-s1:hover{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 31px;
+line-height: 36px;
+
+color: #FFFFFF;;
+
+}
+.p-footer{
+    position: absolute;
+width: 499px;
+height: 17px;
+left: 462px;
+top: 860px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+
+}
+.button-footer{
+    position: absolute;
+    width: 178px;
+    height: 62px;
+    left: 600px;
+    top: 900px;
+    
+    background: #F4F2F2;
+    border-radius: 45px;
+
+    /* button text */   
+    position: absolute;
+width: 111px;
+height: 22px;
+left: 634px;
+top: 920px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 22px;
+
+color: #1C1B2B;
+}
+.button-s1:hover {
     background-color: #FFFFFF;
     color: #040021;
 }
 
 .img-section{
     display: flex;
-    width:max-content;
+    width: 50vw;
+    height: auto;
 }
