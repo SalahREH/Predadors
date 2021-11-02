@@ -78,6 +78,15 @@ ul{
     text-decoration: none;
         
 }
+.bs1 {
+    border: none;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background: #4F4F4F;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.25);
+}
+
 .button-s1:hover{
     background-color: #FFFFFF;
     color: #040021;
