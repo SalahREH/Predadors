@@ -94,13 +94,17 @@ ul{
     height: auto;
 }
 
+footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .h1-footer{
-    position: absolute;
+    display:flex;
     width: 533px;
     height: 32px;
-    left: 462px;
-    top: 803px;
+    
 
     font-family: Roboto;
     font-style: normal;
@@ -112,12 +116,10 @@ ul{
 
 }
 .p-footer{
-    position: absolute;
+    display:flex;
     width: 499px;
     height: 17px;
-    left: 462px;
-    top: 860px;
-
+    
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -125,25 +127,22 @@ ul{
     line-height: 21px;
 
     color: #FFFFFF;
-
-    }
+}
 
 .button-footer{
-    position: absolute;
+    display:flex;
     width: 178px;
     height: 62px;
-    left: 600px;
-    top: 900px;
+   
         
     background: #F4F2F2;
     border-radius: 45px;
 
     /* button text */   
-    position: absolute;
+    display: flex;
     width: 111px;
     height: 22px;
-    left: 634px;
-    top: 920px;
+    
 
     font-family: Roboto;
     font-style: normal;
