@@ -2,11 +2,16 @@ body{
     background-color: #010020;
 }
 
+ul{
+    list-style: none;
+}
 
-section h1 {
+
+
+.h1-s1 {
     width: 410px;
     height: 150px;
-
+    text-align: center;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -17,10 +22,14 @@ section h1 {
 
 }
 
-section p {
-    width: 353px;
-    height: 22px;
+.section1{
+    display: flex;
+    justify-content: space-around;
+}
 
+
+.p-s1 {
+    text-align: center;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -30,23 +39,26 @@ section p {
     color: #FFFFFF;
 }
 
-section button {
+.button-s1 {
     background: #47F177;
     border-radius: 45px;
     border: none;
     width: 220px;
     height: 59px;
+    margin-left: 100px;
+    transition-duration: 0.5s;
+    cursor:pointer;
 
     /*button text*/
     color:#FFFFFF;
+    text-align: center;
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 22px;
-    line-height: 26px;
+    text-decoration: none;
+    
     
 }
-.text1{
+.h1-footer{
     position: absolute;
 width: 533px;
 height: 32px;
@@ -62,7 +74,7 @@ line-height: 36px;
 color: #FFFFFF;;
 
 }
-.text2{
+.p-footer{
     position: absolute;
 width: 499px;
 height: 17px;
@@ -78,7 +90,7 @@ line-height: 21px;
 color: #FFFFFF;
 
 }
-.buttonq{
+.button-footer{
     position: absolute;
     width: 178px;
     height: 62px;
@@ -103,4 +115,12 @@ line-height: 22px;
 
 color: #1C1B2B;
 
+.button-s1:hover{
+    background-color: #FFFFFF;
+    color: #040021;
+}
+
+.img-section{
+    display: flex;
+    width:max-content;
 }
