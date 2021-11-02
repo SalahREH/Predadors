@@ -145,7 +145,7 @@ footer{
     font-weight: normal;
     font-size: 19px;
     line-height: 22px;
-    text-align: center;
     color: #1C1B2B;
+    justify-content: center;
 }
 
