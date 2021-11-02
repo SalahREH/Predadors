@@ -9,7 +9,6 @@ body{
 
 header {
     font-family: 'roboto', sans-serif;
-    font-style: normal;
     color: #FFFFFF;  
 }
 
@@ -62,7 +61,6 @@ ul{
 .h1-s1 {
     text-align: left;
     font-family: 'roboto', sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 70px;
     color: #FFFFFF;   
@@ -71,7 +69,6 @@ ul{
 .p-s1 {
     text-align: left;
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 19px;
     line-height: 22px;
@@ -114,6 +111,7 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 
@@ -139,10 +137,10 @@ ul{
     background: #F4F2F2;
     border-radius: 45px;
     border: none;
+    cursor:pointer;
 
     /* button text */   
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 15px;
     color: #1C1B2B;
