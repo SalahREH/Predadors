@@ -83,47 +83,61 @@ ul{
     text-decoration: none;
         
 }
+.button-s1:hover{
+    background-color: #FFFFFF;
+    color: #040021;
+}
+
+.img-section{
+    display: flex;
+    width: 50vw;
+    height: auto;
+}
+
+footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .h1-footer{
-    position: absolute;
-width: 533px;
-height: 32px;
-left: 462px;
-top: 803px;
+    display:flex;
+    width: 533px;
+    height: 32px;
+    
 
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 31px;
-line-height: 36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 36px;
 
-color: #FFFFFF;;
+    color: #FFFFFF;
 
 }
 .p-footer{
-    position: absolute;
-width: 499px;
-height: 17px;
-left: 462px;
-top: 860px;
+    display:flex;
+    width: 499px;
+    height: 17px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 21px;
-
-color: #FFFFFF;
-
+    color: #FFFFFF;
 }
+
 .button-footer{
-    position: absolute;
+    display:flex;
     width: 178px;
     height: 62px;
-    left: 600px;
-    top: 900px;
-    
+   
+        
     background: #F4F2F2;
     border-radius: 45px;
+    border: none;
 
     /* button text */   
     position: absolute;
@@ -146,8 +160,3 @@ color: #1C1B2B;
     color: #040021;
 }
 
-.img-section{
-    display: flex;
-    width: 50vw;
-    height: auto;
-}
