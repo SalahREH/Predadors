@@ -1,11 +1,36 @@
 body{
-    background-color: #010020;
+    background-color: #040021;
+   
+}
+
+header {
+    font-family: Roboto;
+    font-style: normal;
+    color: #FFFFFF;  
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 90vw; 
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;   
+    width: 40vw;
+    list-style-type: none;
+}
+
+
+
+span {
+    color : #47F177;
 }
 
 ul{
     list-style: none;
 }
-
 
 
 .h1-s1 {
