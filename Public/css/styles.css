@@ -6,6 +6,8 @@ ul{
     list-style: none;
 }
 
+
+
 .h1-s1 {
     width: 410px;
     height: 150px;
@@ -20,10 +22,11 @@ ul{
 
 }
 
-.section1 {
+.section1{
     display: flex;
-    justify-content: space-aroung;
+    justify-content: space-around;
 }
+
 
 .p-s1 {
     text-align: center;
@@ -63,6 +66,5 @@ ul{
 
 .img-section{
     display: flex;
-    width: 738px;
-    height: 506px;
+    width:max-content;
 }
