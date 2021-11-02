@@ -137,19 +137,15 @@ footer{
         
     background: #F4F2F2;
     border-radius: 45px;
+    border: none;
 
     /* button text */   
-    display: flex;
-    width: 111px;
-    height: 22px;
-    
-
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 19px;
     line-height: 22px;
-
+    text-align: center;
     color: #1C1B2B;
 }
 
