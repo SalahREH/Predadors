@@ -34,8 +34,17 @@ function PlaySound6() {
     d1.play();
 }
 
-document.keypress(function(e){
-    if (e.which == 70){
-        PlaySound1();
-    }
-});
+// document.keypress(
+// })
+
+document.addEventListener('keypress', s1f)
+
+// function s1f(e){
+//     if (e.which == 70){
+//         PlaySound1();
+//     }
+// }   
+
+function s1f(e) {
+    log.textContent += ` ${e.code == 70}`;
+  }
