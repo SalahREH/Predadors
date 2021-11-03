@@ -204,6 +204,19 @@ footer{
 
 
 @media only screen and (max-width: 600px) {
+
+    body{
+        margin-top: 3%;
+        margin-right:3%;
+        margin-bottom: 3%;
+        margin-left: 3%;
+       
+    }
+
+    .bs1{
+        display: none;
+    }
+
     .section1{
         flex-direction: column-reverse;
     }
@@ -215,8 +228,20 @@ footer{
     .footer{
         display: none;
     }
+    
+    .drumkit{
+        width: 100%;
+    }
 
     .img-section{
-        
+        display: flex;
+        width: 100%;
+        height: auto;
     }
+
+    .text-s1{
+        display: none;
+    }
+
+    
   }
