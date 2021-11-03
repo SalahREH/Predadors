@@ -14,6 +14,7 @@ nav{
     width: 90vw; 
 }
 
+
 ul {
     display: flex;
     justify-content: space-evenly;   
@@ -95,7 +96,7 @@ ul{
 }
 
 .text-s1{
-    width: 50%;
+    width: 80%;
 }
 
 .drumkit {
@@ -147,7 +148,7 @@ ul{
     font-weight: bold;
     font-size: 31px;
     text-align: center;
-    margin: 0ch;
+    /* margin: 0ch; */
     color: #FFFFFF;
 
 }
@@ -200,6 +201,7 @@ footer{
 
 
 @media only screen and (max-width: 600px) {
+    
 
     body{
         margin-top: 3%;
@@ -215,11 +217,13 @@ footer{
 
     .section1{
         flex-direction: column-reverse;
+        gap: 0;
     }
 
     .h1-s1{
         text-align: left;
         font-size: 50px;
+        margin-block-end: 0.3em;
         
     }
 
@@ -246,9 +250,7 @@ footer{
         height: auto;
     }
 
-    .text-s1{
-        display: none;
-    }
+    
 
     
   }
