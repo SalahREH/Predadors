@@ -97,7 +97,6 @@ ul{
     text-decoration: none;
         
 }
-<<<<<<< HEAD
 
 .text-s1{
     width: 50%;
@@ -122,8 +121,6 @@ ul{
     top: 20%;
     left: 10%;
 }
-=======
->>>>>>> f42212c55b1356f80d5f75ca3d009be11c2210d6
 
 
 
@@ -135,11 +132,7 @@ ul{
 .img-section{
     
     display: flex;
-<<<<<<< HEAD
-    width: 80%;
-=======
     width: 70%;
->>>>>>> f42212c55b1356f80d5f75ca3d009be11c2210d6
     height: auto;
     
 }
