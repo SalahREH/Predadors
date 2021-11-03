@@ -27,3 +27,15 @@ function PlaySound5() {
     d1.src = "./mp3/Cymbal.wav"
     d1.play();
 }
+
+function PlaySound6() {
+    let d1 = new Audio();
+    d1.src = "./mp3/Tom.wav"
+    d1.play();
+}
+
+document.keypress(function(e){
+    if (e.which == 70){
+        PlaySound1();
+    }
+});
