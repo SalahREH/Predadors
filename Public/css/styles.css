@@ -13,7 +13,7 @@ header {
     justify-content: space-around;  
 }
 
-.button-mobile{
+.nav-button{
     display:none;
     
 }
@@ -216,17 +216,35 @@ footer{
     .nav-button{
         display:flex;
         justify-content: right;
+        position:relative;
     }
 
     .button-mobile{
-        display: flex;
+        
         background-color:#49F283;
         width: 66px;
         height: 32px;
         border-radius: 25px;
         border:none;
-        
+
     }
+
+    .bars{
+        display:block;
+        position:absolute;
+        top:5%;
+        right:1%;
+
+    }
+
+    .bar{
+        width: 20px;
+        height:2px;
+        border-radius:5%;
+        margin:5px;
+        background-color:white;
+    }
+
 
     header{
         margin-bottom: 5vh;
