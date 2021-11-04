@@ -51,12 +51,23 @@ function s1f(e) {
 
 
  function redirect() {
-     let src
-     src.src = "./indexmobile.html"
-     window.location(src)
-}
-function a(){
-    console.log("a")
+     
+     window.location.href = "indexmobile.html"
 }
 
-document.querySelector(".button-s1").addEventListener("click", a())
+function redirect2() {
+     
+    window.location.href = "index.html"
+}
+
+
+
+document.querySelector(".button-s1").addEventListener("click", redirect)
+
+document.querySelector(".button-footer").addEventListener("click", redirect2)
+
+
+
+// function a(){
+//     console.log("a")
+// }
