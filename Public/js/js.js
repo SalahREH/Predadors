@@ -37,7 +37,13 @@ function PlaySound6() {
 // document.keypress(
 // })
 
-document.addEventListener('keypress', s1f)
+function s1f(e) {
+    if (e.keyCode === 70) {
+        PlaySound1()
+    }
+}
+
+document.addEventListener('keyup', s1f)
 
 // function s1f(e){
 //     if (e.which == 70){
@@ -45,12 +51,9 @@ document.addEventListener('keypress', s1f)
 //     }
 // }   
 
-function s1f(e) {
-    log.textContent += ` ${e.code == 70}`;
-  }
 
 
- function redirect() {
+function redirect() {
      
      window.location.replace("indexmobile.html")
 }
