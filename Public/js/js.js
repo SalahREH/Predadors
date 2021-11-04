@@ -52,22 +52,24 @@ function s1f(e) {
 
  function redirect() {
      
-     window.location.href = "indexmobile.html"
+     window.location.replace("indexmobile.html")
 }
-
-function redirect2() {
-     
-    window.location.href = "index.html"
-}
-
-
 
 document.querySelector(".button-s1").addEventListener("click", redirect)
 
-document.querySelector(".button-footer").addEventListener("click", redirect2)
-
-
+// function redirect2() {
+     
+//     window.location.href = "index.html"
+// }
 
 // function a(){
 //     console.log("a")
 // }
+
+
+
+// document.querySelector(".button-footer").addEventListener("click", redirect2)
+
+
+
+
