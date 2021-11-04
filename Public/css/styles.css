@@ -33,7 +33,7 @@ span {
 }
 
 .sign-up-bar{
-    border-right: solid;
+    border-right: solid 1px;
     border-color: white;
 }
 
