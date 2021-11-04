@@ -116,7 +116,7 @@ function pum(e) {
 }
 
 function rk(e) {
-    if (e.keyCode === 70) {
+    if (e.keyCode === 79) {
         playrk()
     }
 }
@@ -131,7 +131,7 @@ document.addEventListener('keyup', s7f)
 document.addEventListener('keyup', s8f)
 
 document.addEventListener('keyup', pum)
-
+document.addEventListener('keyup', rk)
 // function s1f(e){
 //     if (e.which == 70){
 //         PlaySound1();
