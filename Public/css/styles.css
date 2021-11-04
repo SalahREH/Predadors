@@ -5,19 +5,25 @@ body{
 
 header {
     font-family: 'roboto', sans-serif;
-    color: #FFFFFF;  
+    color: #FFFFFF;
+    margin-bottom: 20vh;
+    margin-top: 5vh;
+    padding-left: 7vw;
+    display: flex;
+    justify-content: space-around;  
 }
 
 nav{
     display: flex;
     justify-content: flex-end;
-    width: 90vw; 
+    width: 40vw; 
 }
 
 ul {
     display: flex;
     justify-content: space-evenly;   
     width: 40vw;
+    height:2vh;
     list-style-type: none;
 }
 
@@ -25,8 +31,9 @@ span {
     color : #47F177;
 }
 
-ul{
-    list-style: none;
+.sign-up-bar{
+    border-right: solid;
+    border-color: white;
 }
 
 .section1{
