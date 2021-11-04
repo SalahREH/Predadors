@@ -34,6 +34,12 @@ function PlaySound6() {
     d1.play();
 }
 
+function pm() {
+    let d1 = new Audio();
+    d1.src = "./mp3/PUM.mp3"
+    d1.play();
+}
+
 // document.keypress(
 // })
 
@@ -43,7 +49,33 @@ function s1f(e) {
     }
 }
 
+function s2f(e) {
+    if (e.keyCode === 70) {
+        PlaySound1()
+    }
+}
+
+function s3f(e) {
+    if (e.keyCode === 70) {
+        PlaySound1()
+    }
+}
+
+function pum(e) {
+    if (e.keyCode === 80) {
+        pm()
+    }
+}
+
+function rk(e) {
+    if (e.keyCode === 70) {
+        PlaySound1()
+    }
+}
+
 document.addEventListener('keyup', s1f)
+
+document.addEventListener('keyup', pum)
 
 // function s1f(e){
 //     if (e.which == 70){
