@@ -6,7 +6,7 @@ body{
 header {
     font-family: 'roboto', sans-serif;
     color: #FFFFFF;
-    margin-bottom: 20vh;
+    margin-bottom: 5vh;
     margin-top: 5vh;
     padding-left: 7vw;
     display: flex;
@@ -43,6 +43,7 @@ span {
     justify-content: space-around;
     align-items: center;
     padding-left: 10vw;
+    margin-bottom: 5vh;
 }
 
 .text-s1{
