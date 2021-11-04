@@ -48,3 +48,15 @@ document.addEventListener('keypress', s1f)
 function s1f(e) {
     log.textContent += ` ${e.code == 70}`;
   }
+
+
+ function redirect() {
+     let src
+     src.src = "./indexmobile.html"
+     window.location(src)
+}
+function a(){
+    console.log("a")
+}
+
+document.querySelector(".button-s1").addEventListener("click", a())
