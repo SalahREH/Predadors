@@ -42,15 +42,17 @@ span {
     gap: 1.25rem;
     justify-content: space-around;
     align-items: center;
-    /* padding-left: 10vw; */
+    padding-left: 10vw;
 }
 
 .text-s1{
-    width: 40%;
+    width: 30%;
 }
 
 .drumkit{
-    width: 60%;
+    width: 70%;
+    height: 100%;
+    position: relative
 }
 
 /*.bs1 {
@@ -102,15 +104,7 @@ span {
         
 }
 
-.text-s1{
-    width: 80%;
-}
 
-.drumkit {
-    width: 50%;
-    height: 100%;
-    position: relative;
-}
 
 
 .bs1 {
@@ -218,6 +212,16 @@ footer{
        
     }
 
+    nav {
+        display:none
+    }
+
+    header{
+        margin-bottom: 5vh;
+        padding: 0;
+        justify-content: center;
+    }
+
     .bs1{
         display: none;
     }
@@ -225,8 +229,16 @@ footer{
     .section1{
         flex-direction: column-reverse;
         gap: 0;
+        padding-left: 0;
+        align-;
     }
 
+    .text-s1{
+        padding-left: 10vw;
+        width: 100%;
+    }
+
+    
     .h1-s1{
         text-align: left;
         font-size: 50px;
