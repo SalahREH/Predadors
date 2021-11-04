@@ -38,7 +38,7 @@ span {
 
 .section1{
     display: flex;
-    gap: 1.25rem;
+    gap: 1.5rem;
     justify-content: space-between;
     align-items: center;
     padding-left: 10vw;
@@ -234,7 +234,7 @@ footer{
     }
 
     .text-s1{
-        padding-left: 10vw;
+        padding-left: 38vw;
         width: 100%;
     
     }
