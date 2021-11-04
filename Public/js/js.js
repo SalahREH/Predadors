@@ -34,9 +34,27 @@ function PlaySound6() {
     d1.play();
 }
 
-function pm() {
+function PlaySound7() {
+    let d1 = new Audio();
+    d1.src = "./mp3/Tom.wav"
+    d1.play();
+}
+
+function PlaySound8() {
+    let d1 = new Audio();
+    d1.src = "./mp3/Tom.wav"
+    d1.play();
+}
+
+function playpum() {
     let d1 = new Audio();
     d1.src = "./mp3/PUM.mp3"
+    d1.play();
+}
+
+function playrk() {
+    let d1 = new Audio();
+    d1.src = "./mp3/Rakataka.mp3"
     d1.play();
 }
 
@@ -50,33 +68,70 @@ function s1f(e) {
 }
 
 function s2f(e) {
-    if (e.keyCode === 70) {
-        PlaySound1()
+    if (e.keyCode === 68) {
+        PlaySound2()
     }
 }
 
 function s3f(e) {
-    if (e.keyCode === 70) {
-        PlaySound1()
+    if (e.keyCode === 82) {
+        PlaySound3()
+    }
+}
+
+function s4f(e) {
+    if (e.keyCode === 69) {
+        PlaySound4()
+    }
+}
+
+function s5f(e) {
+    if (e.keyCode === 74) {
+        PlaySound5()
+    }
+}
+
+function s6f(e) {
+    if (e.keyCode === 75) {
+        PlaySound6()
+    }
+}
+
+function s7f(e) {
+    if (e.keyCode === 85) {
+        PlaySound7()
+    }
+}
+
+function s8f(e) {
+    if (e.keyCode === 73) {
+        PlaySound8()
     }
 }
 
 function pum(e) {
     if (e.keyCode === 80) {
-        pm()
+        playpum()
     }
 }
 
 function rk(e) {
-    if (e.keyCode === 70) {
-        PlaySound1()
+    if (e.keyCode === 79) {
+        playrk()
     }
 }
 
 document.addEventListener('keyup', s1f)
+document.addEventListener('keyup', s2f)
+document.addEventListener('keyup', s3f)
+document.addEventListener('keyup', s4f)
+document.addEventListener('keyup', s5f)
+document.addEventListener('keyup', s6f)
+document.addEventListener('keyup', s7f)
+document.addEventListener('keyup', s8f)
 
 document.addEventListener('keyup', pum)
-
+document.addEventListener('keyup', rk)
 // function s1f(e){
 //     if (e.which == 70){
 //         PlaySound1();
