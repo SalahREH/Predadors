@@ -18,6 +18,10 @@ header {
     
 }
 
+.shou{
+    display: none
+}
+
 .nav-desk{
     display: flex;
     justify-content: flex-end;
@@ -207,6 +211,10 @@ footer{
         margin-bottom: 3%;
         margin-left: 3%;
        
+    }
+
+    .shou{
+        display: block;
     }
 
     .nav-desk {
