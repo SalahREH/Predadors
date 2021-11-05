@@ -58,6 +58,12 @@ function playrk() {
     d1.play();
 }
 
+function playtru() {
+    let d1 = new Audio();
+    d1.src = "./mp3/tru.mp3"
+    d1.play();
+}
+
 // document.keypress(
 // })
 
@@ -121,6 +127,13 @@ function rk(e) {
     }
 }
 
+function tru(e) {
+    if (e.keyCode === 76) {
+        playtru()
+    }
+}
+
+
 document.addEventListener('keyup', s1f)
 document.addEventListener('keyup', s2f)
 document.addEventListener('keyup', s3f)
@@ -132,6 +145,7 @@ document.addEventListener('keyup', s8f)
 
 document.addEventListener('keyup', pum)
 document.addEventListener('keyup', rk)
+document.addEventListener('keyup', tru)
 // function s1f(e){
 //     if (e.which == 70){
 //         PlaySound1();
@@ -161,5 +175,11 @@ document.querySelector(".button-s1").addEventListener("click", redirect)
 // document.querySelector(".button-footer").addEventListener("click", redirect2)
 
 
+
+function show(){
+    document.querySelector(".nav-mobile").classList.toggle("show")
+}
+
+document.querySelector(".nav-button").addEventListener("click", show)
 
 

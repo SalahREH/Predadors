@@ -58,8 +58,14 @@ function playrk() {
    d1.play();
 }
 
+function playtru() {
+   let d1 = new Audio();
+   d1.src = "./mp3/tru.mp3"
+   d1.play();
+}
 
-let arrsound = [PlaySound1 , PlaySound2 , PlaySound3 , PlaySound4 , PlaySound5 , PlaySound6 , PlaySound7 , PlaySound8 , playpum , playrk];
+
+let arrsound = [PlaySound1 , PlaySound2 , PlaySound3 , PlaySound4 , PlaySound5 , PlaySound6 , PlaySound7 , PlaySound8 , playpum , playrk, playtru];
 
 
 
