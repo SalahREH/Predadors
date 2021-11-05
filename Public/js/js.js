@@ -146,6 +146,13 @@ document.addEventListener('keyup', s8f)
 document.addEventListener('keyup', pum)
 document.addEventListener('keyup', rk)
 document.addEventListener('keyup', tru)
+
+
+
+
+
+
+
 // function s1f(e){
 //     if (e.which == 70){
 //         PlaySound1();
@@ -181,5 +188,9 @@ function show(){
 }
 
 document.querySelector(".nav-button").addEventListener("click", show)
+
+// document.querySelector(".showclick").addEventListener("click", show)
+
+// document.querySelectorAll(".showclick").addEventListener("click", show)
 
 
