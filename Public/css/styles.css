@@ -114,22 +114,75 @@ span {
         
 }
 
-
-
-
 .bs1 {
     border: none;
-    width: 15%;
-    height: 30%;
+    width: 16%;
+    height: 32%;
     border-radius: 50%;
     background: #4F4F4F;
     box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.25);
 
+    
+}
+
+.bs2 {
+    border: none;
+    width: 12%;
+    height: 24%;
+    border-radius: 50%;
+    background: #4F4F4F;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.25);
+
+    
+}
+
+.sound1 {
     position: absolute;
-    top: 20%;
+    top: 52%;
     left: 10%;
 }
 
+.sound2 {
+    position: absolute;
+    top: 52%;
+    left: 44%;
+}
+
+.sound3 {
+    position: absolute;
+    top: 15%;
+    left: 18%;
+}
+
+.sound4{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+
+.sound5{
+    position: absolute;
+    top: 27%;
+    left: 6%;
+}
+
+.sound6{
+    position: absolute;
+    top: 27%;
+    left: 51%;
+}
+
+.sound7{
+    position: absolute;
+    top: 4%;
+    left: 1%;
+}
+
+.sound8{
+    position: absolute;
+    top: 4%;
+    left: 57%;
+}
 
 
 .button-s1:hover{
